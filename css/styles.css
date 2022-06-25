@@ -1,0 +1,248 @@
+
+body{
+    background-color: peachpuff;
+    margin: 20px;
+
+}
+
+
+@media only screen and (max-width: 900px) {
+    body{
+        background-color: #ffff00;
+    }
+    
+}
+
+.main{
+    text-align: center;
+}
+
+.header{
+    margin: auto;
+    padding: 0px;
+    background-color:rgb(155, 139, 98, 0.25) ;
+    height: 100%;
+    width: 100%;
+    background-position:center;
+}
+
+h1{
+    font-size: 40px;
+    text-decoration: underline;
+    padding: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+}
+#far{
+
+    border-radius: 50%;
+    height:100px;
+    width: 100px;;
+}
+
+figcaption{
+    color:#0000FF;
+    font-size: x-large;
+    font-family:Arial, Helvetica, sans-serif;
+    transition: 0.6s;
+    display: inline;
+    
+}
+
+
+.res{
+    font-variant: small-caps;
+    text-decoration: none;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.6s;
+    font-size: x-small;
+    
+}
+
+.res:hover{
+    color:#0000FF;
+    border-top: 1px dotted ;
+}
+
+.trunk{
+    height: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 60px;
+    line-height: 25px;
+}
+.exp ul{
+    text-align: left;
+    padding-left: 200px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 25px;
+}
+
+h2{
+    text-align: center;
+    font-family: algerian;
+    text-decoration: underline;
+    font-variant: small-caps;
+    
+}
+p{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.par{
+    padding-top: 50px;
+}
+
+.carousel{
+    overflow: hidden;
+    width: 100%;
+    max-width: 1000px ;
+    position: relative;
+    margin: 20px;
+   
+}
+
+.card{
+    display: none;
+    margin: 20px;
+    margin-bottom: 20px;
+    background-color: beige;
+    padding-top: 10px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 2.5%;
+   /* align-items: center; */
+ 
+    
+}
+
+.card-header{
+    font-weight: bold;
+    font-family: algerian;
+}
+
+.card-title{
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+.card-body ul li{
+    list-style-type: none;
+    text-align: left;
+    padding-left: 300px;
+    line-height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-a{
+    display: block;    
+}
+
+.carousel_button {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+   
+}
+
+#carousel_button--next, #carousel_button--prev{
+    font-size: 30px;
+    margin-top: 150px;
+    border-radius: 15px;
+    background-color: peachpuff;
+    border-color: peachpuff;
+    transition: 0.5s;
+}
+
+ #carousel_button--prev:hover{
+    background-color:rgb(155, 139, 98);
+    font-size: 60px;
+}
+
+#carousel_button--next:hover{
+    background-color:rgb(155, 139, 98);
+    font-size: 60px;
+}
+#carousel_button--next {
+   margin-right: 50px;
+}
+.footer{
+    margin-top: 20px;
+    background-color: grey;
+    margin:0;
+    height: 100%;
+    opacity:0.8;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+h2{
+    text-decoration: underline;
+    
+}
+
+abbr{
+    color: maroon;
+    letter-spacing: 5.5px;
+   
+}
+abbr:hover::before{
+   content:attr(title);
+   background: rgb(0, 153, 255);
+   position: absolute;
+   padding:20px 20px;
+   border-radius: 20px;
+   color:white;
+   cursor: pointer;
+   margin-bottom: 20px;
+   font-family: cursive;
+   font-size: medium;
+   letter-spacing: 0px;
+  
+}
+
+.projects{
+    text-align: center;
+    font-family: cambria;
+    font-size: 30px;
+}
+
+.fontawesome{
+    padding: 20px;
+    padding-top: 10px;
+   
+}
+
+.fontawesome i{
+    padding: 15px;
+    color: blue;
+    height: 40px;
+    width: 30px;
+    font-size: 30px;
+    transition: ease-in-out 0.7s;
+}
+
+.fontawesome i:hover{
+    outline: 1px dotted blue;
+    border-radius: 50%;
+    background-color: peachpuff;
+}
+hr{
+    width: 30%;
+}
+
+.address{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.cont{
+    padding: 30px;
+}
