@@ -39,7 +39,7 @@ function getThePrevCard(){
       if(cardPosition == totalCards - 1){
         cardPosition = 0;
     }else{
-        cardPosition--;
+        cardPosition++;
     }
     updateCards();
 }
