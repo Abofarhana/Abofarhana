@@ -1,7 +1,7 @@
 
 body{
     background-color: peachpuff;
-    margin: 20px;
+    margin: 0px;
     text-align: center;
 
 }
@@ -16,6 +16,7 @@ body{
 
 .main{
     text-align: center;
+  
 }
 
 .header{
@@ -24,7 +25,8 @@ body{
     background-color:rgb(155, 139, 98, 0.25) ;
     height: 100%;
     width: 100%;
-    background-position:center;
+    background-position:cover;
+    margin-top: 0px;
 }
 
 h1{
